@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  mount Authentication::Engine => "/authentication"
+  mount AuthenticationEngine::Engine => "/auth"
 end

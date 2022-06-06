@@ -1,4 +1,4 @@
-module Authentication
+module AuthenticationEngine
   class ApplicationController < ActionController::Base
   end
 end

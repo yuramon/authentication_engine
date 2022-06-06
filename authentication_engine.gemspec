@@ -1,8 +1,8 @@
-require_relative "lib/authentication/version"
+require_relative "lib/authentication_engine/version"
 
 Gem::Specification.new do |spec|
-  spec.name        = "authentication"
-  spec.version     = Authentication::VERSION
+  spec.name        = "authentication_engine"
+  spec.version     = AuthenticationEngine::VERSION
   spec.authors     = ["yuramon"]
   spec.email       = ["yuramon2405@gmail.com"]
   spec.homepage    = "https://example.com"

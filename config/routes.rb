@@ -1,2 +1,2 @@
-Authentication::Engine.routes.draw do
+AuthenticationEngine::Engine.routes.draw do
 end
