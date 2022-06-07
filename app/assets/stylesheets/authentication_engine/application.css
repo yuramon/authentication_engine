@@ -13,3 +13,16 @@
  *= require_tree
  *= require_self
  */
+
+.ib {
+    padding-right: 10px;
+    float: right;
+}
+
+
+.ib-2 {
+    display: inline-block;
+    position: absolute;
+    top: 40px;
+    right: 140px;
+}

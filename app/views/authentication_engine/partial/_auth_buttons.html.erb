@@ -1,0 +1,15 @@
+<h1><%= link_to 'Rails Engine Application', '/' %></h1>
+
+<% if session[:current_user_id] %>
+  <div class="ib">
+    <%= button_to('Sign out', AuthenticationEngine::Engine.routes.url_helpers.logout_path,:method => "delete") %>
+  </div>
+<% else %>
+  <div class = "ib">
+    <%= button_to('Registration', AuthenticationEngine::Engine.routes.url_helpers.sign_up_path,:method => "get") %>
+  </div>
+  <div class="ib">
+    <%= button_to('Login', AuthenticationEngine::Engine.routes.url_helpers.login_path,:method => "get") %>
+  </div>
+
+<% end %>

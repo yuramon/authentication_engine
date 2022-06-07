@@ -8,7 +8,8 @@
   <%= stylesheet_link_tag    "authentication_engine/application", media: "all" %>
 </head>
 <body>
-
+<%= render partial: 'authentication_engine/partial/auth_buttons' %>
+<%= render partial: 'authentication_engine/partial/flash' %>
 <%= yield %>
 
 </body>
